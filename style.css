@@ -246,6 +246,14 @@ ul.news li {
   font-style: italic;
 }
 
+.thumb-img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
 .pub-info {
   flex: 1;
 }
