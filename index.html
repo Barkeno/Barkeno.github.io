@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jun Liu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <header>
+    <div class="profile">
+      <div class="photo-wrapper">
+        <img src="IMG_5832.JPG" alt="Jun Liu" class="photo"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="photo-placeholder">JL</div>
+      </div>
+      <div class="bio">
+        <h1>Jun Liu <span class="name-cn">刘军</span></h1>
+        <p class="position">Researcher &amp; Engineer</p>
+        <p class="affiliation">
+          <a href="http://www.siasun.com" target="_blank">SIASUN Robot &amp; Automation Co., Ltd.</a>
+        </p>
+        <p class="contact">
+          <a href="mailto:liujun90727@proton.me">liujun90727@proton.me</a>
+          &nbsp;/&nbsp;
+          <a href="https://scholar.google.com/citations?user=gqc0R90AAAAJ" target="_blank">Google Scholar</a>
+          &nbsp;/&nbsp;
+          <a href="cv.pdf">CV</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a researcher at <a href="http://www.siasun.com" target="_blank">SIASUN Robot &amp; Automation Co., Ltd.</a>,
+      one of China's leading robotics companies. My research focuses on
+      <strong>LiDAR-inertial odometry</strong>, <strong>SLAM</strong>,
+      and <strong>multi-sensor fusion</strong> for autonomous mobile robots
+      operating in challenging real-world environments.
+    </p>
+    <p>
+      My work aims to build robust, real-time localization and mapping systems
+      that can handle aggressive motion, sensor degradation, and long-term scene
+      changes — pushing mobile robots toward reliable industrial deployment.
+    </p>
+    <p>
+      I am also interested in <strong>Visual-Language Navigation (VLN)</strong>,
+      exploring how robots can follow natural language instructions in complex
+      environments by grounding language in spatial perception.
+    </p>
+
+    <h3>Research Interests</h3>
+    <ul class="interests">
+      <li>SLAM &amp; State Estimation</li>
+      <li>LiDAR-Inertial Odometry</li>
+      <li>Multi-Sensor Fusion</li>
+      <li>Visual-Language Navigation (VLN)</li>
+      <li>Autonomous Mobile Robots</li>
+    </ul>
+
+    <h3>News</h3>
+    <ul class="news">
+      <li><span class="date">2025</span> — New paper on long-term SLAM with dual-layer octree change detection accepted at <em>IEEE Sensors Journal</em>.</li>
+      <li><span class="date">2025</span> — Paper on spatiotemporal calibration of multi-LiDAR and wheel odometry presented at CCDC 2025.</li>
+      <li><span class="date">2024</span> — FR-LIO extended journal version published in <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
+      <li><span class="date">2024</span> — MULO paper published in <em>Journal of Intelligent &amp; Robotic Systems</em>.</li>
+    </ul>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p class="note">Representative papers are <span class="highlight-mark">highlighted</span>.
+    Full list on <a href="https://scholar.google.com/citations?user=gqc0R90AAAAJ" target="_blank">Google Scholar</a>.</p>
+
+    <div class="pub-year">2025</div>
+
+    <div class="pub">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="#">A Long-Term SLAM System with Graph-Structured Maps and Online Maintenance
+          Using Dual-Layer Octree Change Detection</a>
+        </p>
+        <p class="pub-authors">
+          <strong>J Liu</strong>, Y Zhang, D Li, X Lv, W Liu, X Zhao, Z He
+        </p>
+        <p class="pub-venue"><em>IEEE Sensors Journal</em>, 2025</p>
+        <p class="pub-links">
+          <a href="#">[Paper]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="#">Line-based Targetless Camera-LiDAR Calibration via Extrinsic Initialization
+          and Multi-Constraint Driven Mixture Model</a>
+        </p>
+        <p class="pub-authors">
+          L Zhou, Y Zhang, J Zhang, Y Lv, <strong>J Liu</strong>
+        </p>
+        <p class="pub-venue"><em>IEEE Transactions on Instrumentation and Measurement</em>, 2025</p>
+        <p class="pub-links">
+          <a href="#">[Paper]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="#">Accurate Spatiotemporal Calibration of Multi-LiDAR and Wheel
+          Using Continuous-Time Methods for Industrial Mobile Robots</a>
+        </p>
+        <p class="pub-authors">
+          X Li, <strong>J Liu</strong>
+        </p>
+        <p class="pub-venue">CCDC 2025, pp. 345–352</p>
+        <p class="pub-links">
+          <a href="#">[Paper]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="pub-year">2024</div>
+
+    <div class="pub highlight">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="#">Fast and Robust LiDAR-Inertial Odometry by Tightly-Coupled Iterated
+          Kalman Smoother and Robocentric Voxels</a>
+        </p>
+        <p class="pub-authors">
+          <strong>J Liu</strong>, Y Zhang, X Zhao, Z He, W Liu, X Lv
+        </p>
+        <p class="pub-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 25(10): 14486–14496, 2024
+          &nbsp;<span class="cite-count">14 citations</span>
+        </p>
+        <p class="pub-links">
+          <a href="#">[Paper]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="#">LA-LIO: Robust Localizability-Aware LiDAR-Inertial Odometry for Challenging Scenes</a>
+        </p>
+        <p class="pub-authors">
+          J Huang, Y Zhang, Q Xu, S Wu, <strong>J Liu</strong>, G Wang, W Liu
+        </p>
+        <p class="pub-venue">IROS 2024 &nbsp;<span class="cite-count">6 citations</span></p>
+        <p class="pub-links">
+          <a href="#">[Paper]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="#">MULO: LiDAR Odometry via MUlti-Landmarks Joint Optimization</a>
+        </p>
+        <p class="pub-authors">
+          <strong>J Liu</strong>, Z He, X Zhao, J Hu, S Cheng, W Liu
+        </p>
+        <p class="pub-venue"><em>Journal of Intelligent &amp; Robotic Systems</em>, 110(4): 146, 2024</p>
+        <p class="pub-links">
+          <a href="#">[Paper]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="pub-year">2023</div>
+
+    <div class="pub">
+      <div class="pub-thumb"><div class="thumb-placeholder">Fig</div></div>
+      <div class="pub-info">
+        <p class="pub-title">
+          <a href="https://arxiv.org/abs/2302.04031" target="_blank">FR-LIO: Fast and Robust LiDAR-Inertial Odometry by Tightly-Coupled
+          Iterated Kalman Smoother and Robocentric Voxels</a>
+        </p>
+        <p class="pub-authors">
+          <strong>J Liu</strong>, Y Zhang, X Zhao, Z He
+        </p>
+        <p class="pub-venue">arXiv preprint arXiv:2302.04031, 2023 &nbsp;<span class="cite-count">5 citations</span></p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2302.04031" target="_blank">[arXiv]</a>
+          <a href="#">[BibTeX]</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>FR-LIO / Fast LiDAR-Inertial Odometry</h3>
+        <p>
+          A tightly-coupled LiDAR-inertial odometry system using iterated Kalman
+          smoother and robocentric voxel map, achieving robust real-time localization
+          under aggressive motion and sensor noise.
+        </p>
+        <p class="project-meta">SLAM &nbsp;|&nbsp; C++ &nbsp;|&nbsp; ROS</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Long-Term SLAM with Change Detection</h3>
+        <p>
+          A graph-structured SLAM system with online map maintenance for long-term
+          deployment. Uses a dual-layer octree representation to efficiently detect
+          and adapt to environmental changes.
+        </p>
+        <p class="project-meta">SLAM &nbsp;|&nbsp; C++ &nbsp;|&nbsp; IEEE Sensors Journal</p>
+      </div>
+
+      <div class="project-card">
+        <h3>MULO: Multi-Landmark LiDAR Odometry</h3>
+        <p>
+          A LiDAR odometry approach that jointly optimizes over multiple geometric
+          landmark types for improved accuracy and robustness in structured
+          industrial environments.
+        </p>
+        <p class="project-meta">Robotics &nbsp;|&nbsp; C++ &nbsp;|&nbsp; JIRS 2024</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      &copy; 2026 Jun Liu &nbsp;&middot;&nbsp;
+      Last updated: May 2026
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>
